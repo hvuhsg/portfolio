@@ -11,57 +11,56 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
+    linkedin: 'yehoyada',
+    twitter: '',
+    mastodon: '',
+    facebook: '100021736594758',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'yehoyada_55829',
+    dev: 'hvuhsg',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
-    telegram: '',
-    website: 'https://arifszn.com',
+    telegram: 'yoyo_programming',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'hvuhsg5@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Python',
+    'Golang',
     'JavaScript',
-    'React.js',
+    'Svelte',
     'Node.js',
-    'Nest.js',
+    'Django',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
+    'CI/CD',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Linux',
+    'Flutter',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Brew',
+      position: 'Backend developer',
+      from: 'January 2021',
+      to: 'March 2022',
+      companyLink: 'https://getbrew.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'NotifyMe',
+      position: 'CTO',
+      from: 'August 2020',
+      to: 'January 2021',
+      companyLink: 'blank',
     },
   ],
   /* certifications: [
@@ -74,40 +73,34 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
+      institution: 'Magshimim',
+      degree: 'CS',
+      from: '2016',
       to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'YFace',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Face recognition for events, send your selfie and get your photos',
+      imageUrl: 'https://y-faces.com/images/logo-dark.png',
+      link: 'https://y-faces.com',
     },
     {
-      title: 'Project Name',
+      title: 'Notrix',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Payment Gateway for Crypto',
+      imageUrl: 'https://th.bing.com/th/id/OIP.Cpqy-qkvXZItRzDuEGu7cwAAAA?pid=ImgDet&rs=1',
+      link: 'https://notrix.yoyoserver.win',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'yehoyada_55829', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -119,15 +112,15 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'halloween',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Hide the ring in Profile picture
     hideAvatarRing: false,
@@ -135,34 +128,35 @@ const config = {
     // Available themes. To remove any theme, exclude from here.
     themes: [
       'dark',
-      // 'cupcake',
-      // 'bumblebee',
-      // 'emerald',
-      // 'corporate',
-      // 'synthwave',
-      // 'retro',
-      // 'cyberpunk',
-      // 'valentine',
-      // 'halloween',
-      // 'garden',
-      // 'forest',
-      // 'aqua',
-      // 'lofi',
-      // 'pastel',
-      // 'fantasy',
-      // 'wireframe',
-      // 'black',
-      // 'luxury',
-      // 'dracula',
-      // 'cmyk',
-      // 'autumn',
-      // 'business',
-      // 'acid',
-      // 'lemonade',
-      // 'night',
-      // 'coffee',
-      // 'winter',
-      // 'procyon',
+      'light',
+      'cupcake',
+      'bumblebee',
+      'emerald',
+      'corporate',
+      'synthwave',
+      'retro',
+      'cyberpunk',
+      'valentine',
+      'halloween',
+      'garden',
+      'forest',
+      'aqua',
+      'lofi',
+      'pastel',
+      'fantasy',
+      'wireframe',
+      'black',
+      'luxury',
+      'dracula',
+      'cmyk',
+      'autumn',
+      'business',
+      'acid',
+      'lemonade',
+      'night',
+      'coffee',
+      'winter',
+      'procyon',
     ],
 
     // Custom theme
