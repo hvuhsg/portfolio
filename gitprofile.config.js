@@ -86,7 +86,7 @@ const config = {
       title: 'YFace',
       description:
         'Face recognition for events, send your selfie and get your photos',
-      imageUrl: 'https://y-faces.com/images/logo-dark.png',
+      imageUrl: 'https://th.bing.com/th/id/R.d7a0ecb76b30e5d0d33ce35c1eb8eae1?rik=zR3lmezB6lk5Gw&pid=ImgRaw&r=0',
       link: 'https://y-faces.com',
     },
     {
