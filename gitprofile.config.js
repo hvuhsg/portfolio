@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'hvuhsg', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -134,36 +134,35 @@ const config = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
       'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'procyon',
+      // 'cupcake',
+      // 'bumblebee',
+      // 'emerald',
+      // 'corporate',
+      // 'synthwave',
+      // 'retro',
+      // 'cyberpunk',
+      // 'valentine',
+      // 'halloween',
+      // 'garden',
+      // 'forest',
+      // 'aqua',
+      // 'lofi',
+      // 'pastel',
+      // 'fantasy',
+      // 'wireframe',
+      // 'black',
+      // 'luxury',
+      // 'dracula',
+      // 'cmyk',
+      // 'autumn',
+      // 'business',
+      // 'acid',
+      // 'lemonade',
+      // 'night',
+      // 'coffee',
+      // 'winter',
+      // 'procyon',
     ],
 
     // Custom theme
