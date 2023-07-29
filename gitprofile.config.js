@@ -7,7 +7,7 @@ const config = {
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: ['MultiSC', 'QWhaleNotifierClient', 'NetworkScanDetector', 'Baileys', 'NotifierApp'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['MultiSC', 'QWhaleNotifierClient', 'NetworkScanDetector', 'Baileys', 'NotifierApp', 'ClientWars', 'QWhaleDBClient'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
