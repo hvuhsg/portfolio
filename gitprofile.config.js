@@ -96,6 +96,12 @@ const config = {
       imageUrl: 'https://th.bing.com/th/id/OIP.Cpqy-qkvXZItRzDuEGu7cwAAAA?pid=ImgDet&rs=1',
       link: 'https://notrix.yoyoserver.win',
     },
+    {
+      title: 'Podcast מעשיות קוד',
+      description: 'Thecnical podcast about latest projects and inevations',
+      imageUrl: 'https://podcastim.org.il/wp-content/uploads/2023/07/Screenshot_26.jpg',
+      link: 'https://podcasters.spotify.com/pod/show/ypod0/',
+    }
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
