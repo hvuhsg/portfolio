@@ -46,6 +46,13 @@ const config = {
     'CSS',
     'Linux',
     'Flutter',
+    'C/CPP',
+    'AWS',
+    'Nginx',
+    'Firebase',
+    'MongoDB',
+    'Telegram Bots',
+    'gRPC',
   ],
   experiences: [
     {
