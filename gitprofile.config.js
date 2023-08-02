@@ -26,7 +26,7 @@ const config = {
     telegram: 'yoyo_programming',
     website: '',
     phone: '',
-    email: 'hvuhsg5@gmail.com',
+    email: 'contact@yehoyada.com',
   },
   resume: {
     fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
