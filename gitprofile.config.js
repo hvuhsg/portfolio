@@ -108,6 +108,12 @@ const config = {
       description: 'Thecnical podcast about latest projects and inevations',
       imageUrl: 'https://podcastim.org.il/wp-content/uploads/2023/07/Screenshot_26.jpg',
       link: 'https://podcasters.spotify.com/pod/show/ypod0/',
+    },
+    {
+      title: "Programming Blog",
+      description: "My personal programming blog where I share my latest projects and tech interests",
+      imageUrl: "https://cdn.leonardo.ai/users/2385a9eb-13d5-4745-8113-0da8afcbc4a7/generations/ae048c11-bfdd-4f74-b45d-ff3eba210487/DreamShaper_v7_Telegram_Programming_Blog_Logo_3.jpg?w=512",
+      link: "https://t.me/yehoyadachannel",
     }
   ],
   // Display blog posts from your medium or dev account. (Optional)
