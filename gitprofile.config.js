@@ -101,7 +101,7 @@ const config = {
       description:
         'Payment Gateway for Crypto',
       imageUrl: 'https://th.bing.com/th/id/OIP.Cpqy-qkvXZItRzDuEGu7cwAAAA?pid=ImgDet&rs=1',
-      link: 'https://notrix.yoyoserver.win',
+      link: 'https://notrix.io',
     },
     {
       title: 'Podcast מעשיות קוד',
